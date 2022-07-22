@@ -1,0 +1,241 @@
+body {
+  font-family: 'Mukta', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar1 {
+  margin: 4px 0px 4px 118px;
+}
+
+.navbar2 {
+  margin: 4px 0px 4px 540px;
+}
+
+.navbar2 a {
+  text-decoration: none;
+  margin: 0px 6px;
+  color: white;
+}
+
+.navbar1 a {
+  text-decoration: none;
+  margin: 0px 8px;
+  color: white;
+}
+
+.navbar {
+  background-color: #0aaaa0;
+  color: white;
+  display: flex;
+}
+
+.mainnavbar1 {
+  margin: 20px 117px;
+}
+
+.mainnavbar1 img {
+  width: 150px;
+}
+
+.mainnavbar2 {
+  margin: 16px 0px 16px 156px;
+}
+
+.mainnavbar2 a {
+  color: black;
+  margin: 0px 13px;
+  text-decoration: none;
+  font-weight: 550;
+}
+
+.mainnavbar {
+  margin-bottom: -30px;
+  display: flex;
+}
+
+
+.mainbg {
+  height: 32rem;
+  background-image: url(../images//slide1.jpg);
+  background-size: 84rem;
+  position: relative;
+}
+
+
+.mainbg h1{
+  color: white;
+  position: absolute;
+  margin-top: 11rem;
+  margin-left: 38rem;
+  font-size: 5rem;
+}
+
+.mainnavbar2Donate {
+  margin: 18px 0px 18px 72px;
+}
+
+.mainnavbar2Donate a {
+  text-decoration: none;
+  font-weight: 500;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 3px 8px;
+}
+
+
+#templete {
+  margin-top: 30px;
+}
+
+.fa-user:before {
+  margin-right: 7px;
+}
+
+.fa-heart:before {
+  margin-right: 2px;
+}
+
+.fa-comment:before {
+  margin: 0px 2px;
+}
+
+.postImage {
+  border: 1px solid #efefef;
+  margin: 30px 16px;
+  text-align: start;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: relative;
+}
+
+.postImage:hover {
+
+  transition: all 0.34s ease 0s;
+  box-shadow: 0 8px 16px 1px #ccc;
+}
+
+.image_blog_Section {
+
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px 100px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+}
+
+.blogWed {
+  margin-bottom: 25px;
+  justify-content: space-between;
+  display: flex;
+  
+}
+
+.postImage h3, p {
+  margin-left: 5px;
+}
+
+.postImage h3 {
+
+  margin-top: 2px;
+  font-weight: 600;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 25px 70px;
+  background-color: rgb(10, 0, 0);
+  color: #fff;
+  margin-top: 30px;
+}
+
+.message {
+  top: 0px;
+  background-color: #0aaac0;
+  left: 0px;
+  position: absolute;
+  width: 70px;
+  color: #fff;
+  padding: 24px 8px;
+}
+
+.message p {
+  font-weight: 800;
+}
+
+.colAbout {
+  padding-right: 65px;
+}
+
+.colProject {
+  margin-right: 35px;
+}
+
+.colProject .ourProj {
+  display: flex;
+
+  padding-right: 25px;
+  flex-direction: column;
+}
+
+.colLetter {
+  margin-left: 28px;
+}
+
+.colProject .ourProj a {
+  color: #fff;
+  padding-top: 8px;
+  text-decoration: none;
+}
+
+.colProject .ourProj a span {
+  margin-right: 13px;
+}
+
+.colLink .quicklink {
+  padding-right: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.colLink .quicklink a {
+  text-decoration: none;
+  color: #fff;
+  padding-top: 8px;
+}
+
+.colLink .quicklink a span {
+  margin-right: 13px;
+}
+
+.colLetter input {
+  padding: 7px;
+  font-size: 16px;
+}
+
+.last_bottom .mediaicon {
+  margin-left: 730px;
+  margin: 18px;
+ 
+}
+
+.colLetter i {
+  background-color: #0aaaa0;
+  padding: 9.6px 15px;
+}
+
+.last_bottom .mediaicon a {
+  padding: 0px 7.5px;
+  color: aliceblue;
+}
+
+.last_bottom .bottom p {
+  margin-left: 70px;
+}
+
+.last_bottom {
+  display: flex;
+  background-color: rgb(14, 8, 8);
+  color: #fff;
+}
